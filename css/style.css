@@ -1,0 +1,315 @@
+
+    html {
+        display: flex;
+        min-height: 100%;
+        width: 1440px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .top {
+        display: flex;
+        text-align: center;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top_h1 {
+        font-family: 'Arapey';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 66px;
+        color: #9DB0D1;
+        margin-top: 100px;
+    }
+
+    .top_span {
+        width: 1024px;
+        height: 48px;
+        margin-top: 50px;
+        font-family: Verdana;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+        color: #000;
+    }
+
+    .top_button {
+        display: inline-block;
+        height: 80px;
+        width: 267px;
+        border-radius: 10px;
+        background: rgba(235, 172, 135, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: Arapey;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .top_a {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    .top_dots {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .top_dots_summ {
+        display: flex;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+
+    .top_dots_el {
+        width: 60px;
+        height: 60px;
+        background-color: #9db0d1;
+        border-radius: 50%;
+
+    }
+
+    .top_dots_text {
+        display: flex;
+        text-align: center;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .top_dots_img {
+        margin-top: 15px;
+        width: 30px;
+    }
+
+    .clouds {
+        background: linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+        margin-top: 48px;
+    }
+
+    .clouds_img {
+        width: 100%;
+    }
+
+    .clouds_txt {
+        font-family: 'Arapey';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        color: #000000;
+        margin-top: 50px;
+    }
+
+    .main {
+        background: #87C6EB;
+        padding-top: 50px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .cards_box {
+
+        width: 350px;
+        height: 560px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin-left: 37.5px;
+        margin-right: 37.5px;
+    }
+
+
+    .cards_box_in {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .cards_box_num {
+
+        width: 60px;
+        height: 60px;
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+        border-radius: 50%;
+        background-color: #EBAC87;
+    }
+
+    .cards_box_num_txt {
+        display: flex;
+        margin-top: 13px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards_box_hold {
+        margin-top: 10px;
+        width: 310px;
+        height: 310px;
+        background: #EBAC87;
+    }
+
+    .cards_box_img {
+        width: 100%;
+    }
+
+    .o40 {
+        background: rgba(235, 172, 135, 0.4);
+    }
+
+    .o60 {
+        background: rgba(235, 172, 135, 0.6);
+    }
+
+    .cards_box_info {
+        margin-top: 20px;
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .main_txtbox {
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main_txtbox_info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main_txtbox_info_1 {
+
+        font-family: 'Arapey';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 44px;
+
+        color: #FFFFFF;
+    }
+
+    .main_txtbox_info_2 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .main_txtbox_btn {
+        width: 220px;
+        height: 80px;
+        background: #FFFFFF;
+        color: #EBAC87;
+
+        padding: 24px, 50px;
+        border-radius: 10px;
+        display: inline-block;
+        font-family: 'Arapey';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
+
+    .main_txtbox_btn_txt {
+        margin-top: 25px;
+    }
+
+
+    .bottom {
+        display: flex;
+        margin: 50px 120px 0 120px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .bottom_button {
+        display: inline-block;
+        height: 80px;
+        width: 267px;
+        border-radius: 10px;
+        background: rgba(235, 172, 135, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: Arapey;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+
+        text-transform: uppercase;
+
+    }
+
+    .bottom_a {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    .bottom img {
+        width: 24px;
+    }
+
+    .bottom_soc {display: flex;}
+
+    .bottom_ico {
+        width: 60px;
+        height: 60px;
+    }
